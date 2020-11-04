@@ -15,9 +15,7 @@ const Routes = () => {
     ? anecdotes.find((anecdote) => {
         return anecdote.id === match.params.id;
       })
-    : null;
-
-  console.log(anecdote);
+    : null;  
 
   return (
     <Switch>
